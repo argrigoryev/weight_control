@@ -1,0 +1,39 @@
+{
+  "Test": "ca-app-pub-3940256099942544/2934735716",
+  "FormScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "ResultScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "NormalWeightScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "KcalScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "IndexScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "KcalMoreScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "ProteinMoreScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "FatsMoreScreen": {
+    "ios": "",
+    "android": ""
+  },
+  "CarbohydratesMoreScreen": {
+    "ios": "",
+    "android": ""
+  }
+}

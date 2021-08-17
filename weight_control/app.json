@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "FatControl",
+    "description": "",
+    "slug": "weight_control",
+    "version": "21.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#f888e7",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#f888e7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "locales": {
+      "en": "./localization/infoPlist/en.json",
+      "ru": "./localization/infoPlist/ru.json"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.alexandrgrigoryev.weightcontrol",
+      "buildNumber": "21.1.2",
+      "infoPlist": {
+        "CFBundleLocalizations" : ["en", "ru"],
+        "CFBundleDevelopmentRegion" : "en"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.alexandrgrigoryev.weightcontrol",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}
