@@ -35,6 +35,9 @@ export class UnitIdAdapter {
             case 'CarbohydratesMoreScreen':
                 screenIds = unitIds.CarbohydratesMoreScreen;
                 break;
+            case 'InterstitialResult':
+                screenIds = unitIds.InterstitialResult;
+                break;
         }
         let unitId = TEST_UNIT_ID;
         if (screenIds && Constants.isDevice) {

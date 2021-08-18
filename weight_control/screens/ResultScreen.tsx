@@ -7,8 +7,17 @@ import BannerAd from '../advert/BannerAd';
 import ResultCard from '../components/cards/ResultCard';
 import { Strings } from '../localization/Strings';
 import { CalculationModel } from '../models/CalculationModel';
+import { useEffect } from 'react';
+import { InterstitialAd } from '../advert/InterstitialAd';
 
 export default function ResultScreen({ navigation }: StackScreenProps<RootStackParamList>) {
+
+    useEffect(() => {
+        (async function() {
+            await InterstitialAd.show();
+        })()
+    }, []);
+
     function getNormalWeight() {
         return CalculationModel.instance().getApproximateNormalWeight().toString() + ' ' + Strings.get('kg_text');
     }
@@ -18,7 +27,7 @@ export default function ResultScreen({ navigation }: StackScreenProps<RootStackP
     }
 
     function getKcal() {
-        return CalculationModel.instance().getApproximateKcal() + ' ' + Strings.get('kcal_text');
+        return CalculationModel.instance().getNormalKcal() + ' ' + Strings.get('kcal_text');
     }
 
     function onKcalButtonClick() {

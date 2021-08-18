@@ -2001,11 +2001,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@ptomasroos/react-native-multi-slider@^2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@ptomasroos/react-native-multi-slider/-/react-native-multi-slider-2.2.2.tgz#35a97fb8c355627c6a2ded010b360ac5728b44ad"
-  integrity sha512-HWyCnRD3Z3SbHK2FLWYmBBqd1B4iXipeKv1+AK0FoY/CElEDTEixHE8hN60TsqxalPrznn798LE2Q4tHuCiyaA==
-
 "@react-native-community/cli-debugger-ui@^4.13.1":
   version "4.13.1"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-4.13.1.tgz"
@@ -6983,7 +6978,7 @@ react-native-root-siblings@^4.0.0:
 
 react-native-root-toast@^3.2.1:
   version "3.2.1"
-  resolved "https://registry.yarnpkg.com/react-native-root-toast/-/react-native-root-toast-3.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/react-native-root-toast/-/react-native-root-toast-3.2.1.tgz#f456d029f5c5b76e4b686334f25371465478a3be"
   integrity sha512-BNf6LKMqcIAonKgqCGQWk+1lduFqSjPYbEF0FygMZbXhODRTvrGUAvAgV6kfamVPOkKHUkPU7dnnvmgEQ8ZDzQ==
   dependencies:
     prop-types "^15.5.10"
@@ -7008,7 +7003,7 @@ react-native-simple-radio-button@^2.7.4:
 
 react-native-sync-localstorage@^0.0.3:
   version "0.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-sync-localstorage/-/react-native-sync-localstorage-0.0.3.tgz"
+  resolved "https://registry.yarnpkg.com/react-native-sync-localstorage/-/react-native-sync-localstorage-0.0.3.tgz#1f317b41241eeb423daca8631582a475d6f7d53c"
   integrity sha512-xp9/JahQj9RYL+Bv2FBJXpqH0DGvIjVYD+GNBVjNwavHKvk0mB8FtzWYdZW5leQ9mvHEU5qaefyB+bdJeLVJcw==
 
 react-native-web@~0.13.12:

@@ -3,7 +3,7 @@
     "name": "FatControl",
     "description": "",
     "slug": "weight_control",
-    "version": "21.1.2",
+    "version": "21.1.3",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -27,7 +27,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.alexandrgrigoryev.weightcontrol",
-      "buildNumber": "21.1.2",
+      "buildNumber": "21.1.3",
       "infoPlist": {
         "CFBundleLocalizations" : ["en", "ru"],
         "CFBundleDevelopmentRegion" : "en"

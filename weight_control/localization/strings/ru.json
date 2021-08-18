@@ -33,6 +33,7 @@
   "gram_text": "грамм",
 
   "conclusion_prompt": "Вывод:",
+  "data_processing_error_message": "Ошибка в обработке данных",
 
   "calculate_button": "Рассчитать",
   "more_details_button": "Подробнее",

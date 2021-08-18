@@ -30,7 +30,7 @@ export class CalculationModel {
         return Math.round((sex == this.SEX.FEMALE ? this.NORMAL_FEMALE_INDEX : this.NORMAL_MALE_INDEX) *  Math.pow(height/100, 2));
     }
 
-    public getApproximateKcal(): number {
+    public getNormalKcal(): number {
         const sex = SettingsModel.instance().getSex();
         const weight = SettingsModel.instance().getWeight();
         const height = SettingsModel.instance().getHeight();
@@ -72,7 +72,7 @@ export class CalculationModel {
 
     public getKcal(): number {
         const goal = SettingsModel.instance().getGoal();
-        const approx = this.getApproximateKcal();
+        const approx = this.getNormalKcal();
         if (goal == this.GOAL.SLIMMING) {
             return Math.round(approx * 0.85);
         } else if (goal == this.GOAL.WEIGHT_GAIN) {
@@ -83,12 +83,12 @@ export class CalculationModel {
     }
 
     public getProtein(): number {
-        return Math.round((this.getApproximateKcal() * 0.3) / 4);
+        return Math.round((this.getNormalKcal() * 0.3) / 4);
     }
 
     public getFat(): number {
         const goal = SettingsModel.instance().getGoal();
-        const kcal = this.getApproximateKcal();
+        const kcal = this.getNormalKcal();
         if (goal == this.GOAL.SLIMMING) {
             return Math.round((kcal * 0.3) / 9);
         } else if (goal == this.GOAL.WEIGHT_GAIN) {
@@ -100,7 +100,7 @@ export class CalculationModel {
 
     public getCarbohydrate(): number {
         const goal = SettingsModel.instance().getGoal();
-        const kcal = this.getApproximateKcal();
+        const kcal = this.getNormalKcal();
         if (goal == this.GOAL.SLIMMING) {
             return Math.round((kcal * 0.4) / 9);
         } else if (goal == this.GOAL.WEIGHT_GAIN) {

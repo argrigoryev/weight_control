@@ -4,7 +4,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import * as React from 'react';
 import { Strings } from '../localization/Strings';
 // @ts-ignore
-import localStorage from 'react-native-sync-localstorage'
+import localStorage from 'react-native-sync-localstorage';
 
 export default function useCachedResources() {
   const [isLoadingComplete, setLoadingComplete] = React.useState(false);
@@ -24,7 +24,7 @@ export default function useCachedResources() {
         Strings.init();
 
         // Load local storage
-        localStorage.getAllFromLocalStorage();
+        await localStorage.getAllFromLocalStorage();
 
       } catch (e) {
         // We might want to provide this error information to an error reporting service
